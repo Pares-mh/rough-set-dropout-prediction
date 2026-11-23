@@ -1,0 +1,95 @@
+{
+  "method": "EF",
+  "granule_min": 10,
+  "beta": 0.7,
+  "min_support": 5,
+  "min_conf": 0.6,
+  "reduct": [
+    "tuition_up_to_date",
+    "scholarship",
+    "cu1_enrolled",
+    "cu1_approved"
+  ],
+  "reduct_trace": [
+    [
+      "cu1_approved",
+      0.6778933092224232
+    ],
+    [
+      "cu1_enrolled",
+      0.7084086799276673
+    ],
+    [
+      "tuition_up_to_date",
+      0.7102169981916817
+    ],
+    [
+      "scholarship",
+      0.7373417721518988
+    ]
+  ],
+  "regions": {
+    "positive": 0.745253164556962,
+    "boundary": 0.254746835443038
+  },
+  "n_rules_raw": 37,
+  "n_rules": 13,
+  "cuts": {
+    "app_order": [
+      1.0,
+      2.0
+    ],
+    "prev_qual_grade": [
+      125.0,
+      133.1,
+      140.0
+    ],
+    "admission_grade": [
+      117.9,
+      126.1,
+      134.8
+    ],
+    "age": [
+      19.0,
+      20.0,
+      25.0
+    ],
+    "unemployment": [
+      9.4,
+      11.1,
+      13.9
+    ],
+    "inflation": [
+      0.3,
+      1.4,
+      2.6
+    ],
+    "gdp": [
+      -1.7,
+      0.32,
+      1.79
+    ],
+    "cu1_credited": [],
+    "cu1_enrolled": [
+      5.0,
+      6.0,
+      7.0
+    ],
+    "cu1_evaluations": [
+      6.0,
+      8.0,
+      10.0
+    ],
+    "cu1_approved": [
+      3.0,
+      5.0,
+      6.0
+    ],
+    "cu1_grade": [
+      11.0,
+      12.285714285714286,
+      13.4
+    ],
+    "cu1_without_eval": []
+  }
+}

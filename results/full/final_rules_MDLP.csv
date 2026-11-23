@@ -1,0 +1,11 @@
+rule,cls,kind,length,support,strength,confidence
+IF 1st-sem grade average >= 13.2908 THEN Graduate,Graduate,possible,1,1213,938,0.7732893652102226
+IF Tuition fees up to date = yes AND 1st-sem grade average >= 13.2908 THEN Graduate,Graduate,certain,2,1156,926,0.801038062283737
+IF 12.2583 <= 1st-sem grade average < 13.2908 THEN Graduate,Graduate,possible,1,1017,636,0.6253687315634219
+IF 12.2583 <= 1st-sem grade average < 13.2908 AND Tuition fees up to date = yes THEN Graduate,Graduate,certain,2,940,629,0.6691489361702128
+IF 1st-sem grade average < 9.9 THEN Dropout,Dropout,certain,1,719,571,0.7941585535465925
+IF Tuition fees up to date = no THEN Dropout,Dropout,possible,1,528,457,0.865530303030303
+IF Tuition fees up to date = no AND 10.5357 <= 1st-sem grade average < 12.2583 THEN Dropout,Dropout,certain,2,160,143,0.89375
+IF 9.9 <= 1st-sem grade average < 10.0833 THEN Dropout,Dropout,certain,1,82,59,0.7195121951219512
+IF Tuition fees up to date = no AND 12.2583 <= 1st-sem grade average < 13.2908 THEN Dropout,Dropout,certain,2,77,56,0.7272727272727273
+IF 10.0833 <= 1st-sem grade average < 10.5357 AND Tuition fees up to date = no THEN Dropout,Dropout,certain,2,10,9,0.9

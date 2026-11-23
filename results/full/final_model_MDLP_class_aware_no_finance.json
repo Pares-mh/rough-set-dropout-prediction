@@ -1,0 +1,77 @@
+{
+  "method": "MDLP",
+  "granule_min": 15,
+  "beta": 0.12,
+  "min_support": 3,
+  "min_conf": 0.04,
+  "class_aware": true,
+  "reduct": [
+    "age",
+    "cu1_approved"
+  ],
+  "reduct_trace": [
+    [
+      "cu1_approved",
+      0.5516813452431154
+    ],
+    [
+      "age",
+      0.674690581324815
+    ]
+  ],
+  "regions": {
+    "positive": 0.9579566003616636,
+    "boundary": 0.042043399638336365
+  },
+  "n_rules_raw": 22,
+  "n_rules": 16,
+  "cuts": {
+    "app_order": [
+      1.5
+    ],
+    "prev_qual_grade": [
+      120.5,
+      133.05,
+      133.45
+    ],
+    "admission_grade": [
+      112.25
+    ],
+    "age": [
+      19.5,
+      22.5
+    ],
+    "unemployment": [],
+    "inflation": [],
+    "gdp": [],
+    "cu1_credited": [],
+    "cu1_enrolled": [
+      5.5,
+      7.5,
+      8.5
+    ],
+    "cu1_evaluations": [
+      4.5,
+      5.5,
+      8.5,
+      20.5
+    ],
+    "cu1_approved": [
+      0.5,
+      2.5,
+      3.5,
+      4.5,
+      5.5
+    ],
+    "cu1_grade": [
+      9.9,
+      10.083333333333332,
+      10.535714285714285,
+      12.258333333333333,
+      13.290833333333332
+    ],
+    "cu1_without_eval": [
+      0.5
+    ]
+  }
+}

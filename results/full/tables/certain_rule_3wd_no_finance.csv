@@ -1,0 +1,10 @@
+model,coverage,accuracy
+RS-EF,0.5825,0.8021
+RS-EF-class-aware,0.815,0.7304
+RS-EF-classic,0.583,0.6622
+RS-EF-pruned,0.579,0.8045
+RS-EF-pruned-bal,0.579,0.8045
+RS-MDLP,0.6914,0.7794
+RS-MDLP-class-aware,0.7764,0.7441
+RS-MDLP-pruned,0.6889,0.7803
+RS-MDLP-pruned-bal,0.6889,0.7803

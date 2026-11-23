@@ -1,0 +1,21 @@
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data (download from UCI, see data/PUT_data.csv_HERE.txt)
+data/data.csv
+data/synthetic.csv
+
+# Keep the final evaluation tables and figures available with the report.
+/results/*
+!/results/full/
+*.pkl
+
+# Local presentation copies
+/final/final_slides.pptx
+/final/final_slides.pdf
+
+# Office lock files
+~$*

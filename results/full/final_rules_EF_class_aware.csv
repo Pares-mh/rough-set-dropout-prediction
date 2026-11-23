@@ -1,0 +1,23 @@
+rule,cls,kind,length,support,strength,confidence
+IF 1st-sem units approved >= 6 THEN Graduate,Graduate,possible,1,1994,1573,0.7888665997993982
+IF Nationality = code 1 AND 1st-sem units approved >= 6 THEN Graduate,Graduate,certain,2,1943,1534,0.7895007720020587
+IF 1st-sem units approved < 3 THEN Dropout,Dropout,possible,1,1005,775,0.7711442786069652
+IF 6 <= 1st-sem units enrolled < 7 AND 1st-sem units approved >= 6 THEN Graduate,Graduate,certain,2,948,768,0.810126582278481
+IF Nationality = code 1 AND Scholarship holder = no AND 1st-sem units approved < 3 THEN Dropout,Dropout,certain,3,881,706,0.8013620885357549
+IF 1st-sem units approved < 3 AND 5 <= 1st-sem units enrolled < 6 THEN Dropout,Dropout,certain,2,371,294,0.7924528301886793
+IF 1st-sem units approved < 3 AND 6 <= 1st-sem units enrolled < 7 THEN Dropout,Dropout,certain,2,321,286,0.8909657320872274
+IF 5 <= 1st-sem units enrolled < 6 AND 5 <= 1st-sem units approved < 6 THEN Graduate,Graduate,possible,2,297,212,0.7138047138047138
+IF Nationality = code 1 AND 5 <= 1st-sem units approved < 6 AND 5 <= 1st-sem units enrolled < 6 THEN Graduate,Graduate,certain,3,289,207,0.7162629757785467
+IF Nationality = code 1 AND Scholarship holder = no AND 3 <= 1st-sem units approved < 5 AND 6 <= 1st-sem units enrolled < 7 THEN Dropout,Dropout,certain,4,240,137,0.5708333333333333
+IF 3 <= 1st-sem units approved < 5 AND 5 <= 1st-sem units enrolled < 6 THEN Enrolled,Enrolled,possible,2,342,132,0.38596491228070173
+IF Nationality = code 1 AND Scholarship holder = no AND 3 <= 1st-sem units approved < 5 AND 5 <= 1st-sem units enrolled < 6 THEN Enrolled,Enrolled,certain,4,285,112,0.3929824561403509
+IF 1st-sem units approved < 3 AND 1st-sem units enrolled >= 7 THEN Dropout,Dropout,certain,2,89,79,0.8876404494382022
+IF Scholarship holder = yes AND Nationality = code 1 AND 5 <= 1st-sem units approved < 6 AND 6 <= 1st-sem units enrolled < 7 THEN Graduate,Graduate,certain,4,80,61,0.7625
+IF 1st-sem units enrolled >= 7 AND 3 <= 1st-sem units approved < 5 AND Scholarship holder = no THEN Dropout,Dropout,certain,3,58,43,0.7413793103448276
+IF Nationality = code 1 AND 1st-sem units enrolled >= 7 AND 5 <= 1st-sem units approved < 6 THEN Enrolled,Enrolled,certain,3,78,36,0.46153846153846156
+IF Nationality = code 1 AND 1st-sem units enrolled >= 7 AND Scholarship holder = no AND 5 <= 1st-sem units approved < 6 THEN Dropout,Dropout,certain,4,59,31,0.5254237288135594
+IF Scholarship holder = yes AND 1st-sem units enrolled < 5 AND Nationality = code 1 THEN Graduate,Graduate,certain,3,43,27,0.627906976744186
+IF Scholarship holder = yes AND 3 <= 1st-sem units approved < 5 AND 6 <= 1st-sem units enrolled < 7 THEN Enrolled,Enrolled,certain,3,51,20,0.39215686274509803
+IF 1st-sem units approved < 3 AND 1st-sem units enrolled >= 7 AND Scholarship holder = yes THEN Enrolled,Enrolled,certain,3,11,5,0.45454545454545453
+IF Nationality = other (rare code) AND Scholarship holder = no AND 5 <= 1st-sem units enrolled < 6 AND 5 <= 1st-sem units approved < 6 THEN Enrolled,Enrolled,certain,4,7,3,0.42857142857142855
+IF Nationality = other (rare code) AND 1st-sem units approved < 3 AND 5 <= 1st-sem units enrolled < 6 THEN Enrolled,Enrolled,certain,3,7,3,0.42857142857142855

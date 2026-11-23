@@ -1,0 +1,4 @@
+Download the dataset from https://archive.ics.uci.edu/dataset/697
+(click "Download", unzip) and copy data.csv into this folder:
+    data/data.csv
+The file is semicolon-separated; the loader handles that automatically.

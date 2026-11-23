@@ -1,0 +1,17 @@
+rule,cls,kind,length,support,strength,confidence
+IF 1st-sem units approved >= 5.5 THEN Graduate,Graduate,certain,1,1994,1573,0.7888665997993982
+IF Age at enrollment < 19.5 THEN Graduate,Graduate,possible,1,1952,1212,0.6209016393442623
+IF Age at enrollment >= 22.5 THEN Dropout,Dropout,possible,1,1377,728,0.5286855482933914
+IF 1st-sem units approved < 0.5 THEN Dropout,Dropout,certain,1,718,570,0.7938718662952646
+IF 19.5 <= Age at enrollment < 22.5 THEN Enrolled,Enrolled,possible,1,1095,247,0.22557077625570776
+IF 0.5 <= 1st-sem units approved < 2.5 THEN Dropout,Dropout,certain,1,287,205,0.7142857142857143
+IF 4.5 <= 1st-sem units approved < 5.5 AND Age at enrollment < 19.5 THEN Graduate,Graduate,certain,2,343,192,0.5597667638483965
+IF 3.5 <= 1st-sem units approved < 4.5 THEN Enrolled,Enrolled,certain,1,433,145,0.3348729792147806
+IF 2.5 <= 1st-sem units approved < 3.5 THEN Dropout,Dropout,certain,1,269,139,0.516728624535316
+IF Age at enrollment < 19.5 AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,2,343,97,0.282798833819242
+IF 3.5 <= 1st-sem units approved < 4.5 AND Age at enrollment >= 22.5 THEN Dropout,Dropout,certain,2,137,68,0.49635036496350365
+IF 19.5 <= Age at enrollment < 22.5 AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,2,194,59,0.30412371134020616
+IF 2.5 <= 1st-sem units approved < 3.5 AND 19.5 <= Age at enrollment < 22.5 THEN Enrolled,Enrolled,certain,2,88,36,0.4090909090909091
+IF 0.5 <= 1st-sem units approved < 2.5 AND Age at enrollment < 19.5 THEN Enrolled,Enrolled,certain,2,80,35,0.4375
+IF Age at enrollment < 19.5 AND 2.5 <= 1st-sem units approved < 3.5 THEN Enrolled,Enrolled,certain,2,83,33,0.39759036144578314
+IF 0.5 <= 1st-sem units approved < 2.5 AND 19.5 <= Age at enrollment < 22.5 THEN Enrolled,Enrolled,certain,2,61,19,0.3114754098360656

@@ -1,0 +1,10 @@
+rule,cls,kind,length,support,strength,confidence
+IF 1st-sem units approved >= 6 THEN Graduate,Graduate,certain,1,1994,1573,0.7888665997993982
+IF 1st-sem units enrolled >= 7 THEN Graduate,Graduate,possible,1,1277,815,0.6382145653876272
+IF 1st-sem units approved < 3 THEN Dropout,Dropout,certain,1,1005,775,0.7711442786069652
+IF 5 <= 1st-sem units approved < 6 AND 5 <= 1st-sem units enrolled < 6 THEN Graduate,Graduate,certain,2,297,212,0.7138047138047138
+IF 3 <= 1st-sem units approved < 5 AND 6 <= 1st-sem units enrolled < 7 THEN Dropout,Dropout,certain,2,295,153,0.5186440677966102
+IF 3 <= 1st-sem units approved < 5 AND 5 <= 1st-sem units enrolled < 6 THEN Enrolled,Enrolled,certain,2,342,132,0.38596491228070173
+IF 1st-sem units enrolled < 5 THEN Dropout,Dropout,possible,1,227,118,0.5198237885462555
+IF 3 <= 1st-sem units approved < 5 AND 1st-sem units enrolled >= 7 THEN Dropout,Dropout,certain,2,62,44,0.7096774193548387
+IF 5 <= 1st-sem units approved < 6 AND 1st-sem units enrolled >= 7 THEN Enrolled,Enrolled,certain,2,80,37,0.4625

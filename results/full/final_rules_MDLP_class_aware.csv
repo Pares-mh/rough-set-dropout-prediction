@@ -1,0 +1,127 @@
+rule,cls,kind,length,support,strength,confidence
+IF 1st-sem units approved < 0.5 THEN Dropout,Dropout,possible,1,718,570,0.7938718662952646
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9500 THEN Graduate,Graduate,certain,3,624,543,0.8701923076923077
+IF 0.5 <= 1st-sem units approved < 2.5 THEN Dropout,Dropout,possible,1,287,205,0.7142857142857143
+IF 1st-sem units approved >= 5.5 AND Course = code 9238 THEN Graduate,Graduate,possible,2,201,183,0.9104477611940298
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9238 THEN Graduate,Graduate,certain,3,195,181,0.9282051282051282
+IF 1st-sem units approved >= 5.5 AND Course = code 9773 THEN Graduate,Graduate,possible,2,197,159,0.8071065989847716
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9773 THEN Graduate,Graduate,certain,3,187,155,0.8288770053475936
+IF Course = code 9991 THEN Dropout,Dropout,possible,1,268,136,0.5074626865671642
+IF 1st-sem units approved >= 5.5 AND Course = code 9070 THEN Graduate,Graduate,possible,2,150,114,0.76
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9070 THEN Graduate,Graduate,certain,3,144,113,0.7847222222222222
+IF 1st-sem units approved >= 5.5 AND Course = code 9254 THEN Graduate,Graduate,possible,2,120,94,0.7833333333333333
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9254 THEN Graduate,Graduate,certain,3,114,92,0.8070175438596491
+IF 1st-sem units approved >= 5.5 AND Course = code 8014 THEN Graduate,Graduate,possible,2,111,91,0.8198198198198198
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9147 THEN Graduate,Graduate,certain,3,119,90,0.7563025210084033
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 8014 THEN Graduate,Graduate,certain,3,107,89,0.8317757009345794
+IF 1st-sem units approved >= 5.5 AND Course = code 9085 THEN Graduate,Graduate,possible,2,111,83,0.7477477477477478
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9085 THEN Graduate,Graduate,certain,3,103,82,0.7961165048543689
+IF Course = code 9130 THEN Dropout,Dropout,possible,1,141,78,0.5531914893617021
+IF 1st-sem units approved >= 5.5 AND Course = code 9670 THEN Graduate,Graduate,possible,2,100,75,0.75
+IF 1st-sem units approved >= 5.5 AND Course = code 9003 THEN Graduate,Graduate,possible,2,99,73,0.7373737373737373
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9670 THEN Graduate,Graduate,certain,3,95,72,0.7578947368421053
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9003 THEN Graduate,Graduate,certain,3,92,72,0.782608695652174
+IF Course = code 9119 AND Tuition fees up to date = yes THEN Dropout,Dropout,possible,2,142,70,0.49295774647887325
+IF 1st-sem units approved < 0.5 AND Course = code 9991 THEN Dropout,Dropout,certain,2,63,60,0.9523809523809523
+IF Tuition fees up to date = yes AND Course = code 9119 THEN Enrolled,Enrolled,possible,2,142,58,0.4084507042253521
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9085 THEN Graduate,Graduate,certain,3,67,49,0.7313432835820896
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9991 THEN Graduate,Graduate,certain,3,64,49,0.765625
+IF 1st-sem units approved < 0.5 AND Course = code 9147 THEN Dropout,Dropout,certain,2,54,48,0.8888888888888888
+IF 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9238 THEN Graduate,Graduate,possible,2,69,48,0.6956521739130435
+IF 1st-sem units approved < 0.5 AND Course = code 9500 THEN Dropout,Dropout,certain,2,51,47,0.9215686274509803
+IF 1st-sem units approved < 0.5 AND Course = code 9119 THEN Dropout,Dropout,certain,2,55,45,0.8181818181818182
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = code 9853 THEN Graduate,Graduate,certain,3,72,45,0.625
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9238 THEN Graduate,Graduate,certain,3,61,44,0.7213114754098361
+IF 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9147 THEN Dropout,Dropout,certain,2,58,37,0.6379310344827587
+IF 1st-sem units approved < 0.5 AND Course = code 9003 THEN Dropout,Dropout,certain,2,41,36,0.8780487804878049
+IF Tuition fees up to date = yes AND 1st-sem units approved >= 5.5 AND Course = other (rare code) THEN Graduate,Graduate,certain,3,52,36,0.6923076923076923
+IF 1st-sem units approved < 0.5 AND Course = code 9085 THEN Dropout,Dropout,certain,2,39,34,0.8717948717948718
+IF 1st-sem units approved < 0.5 AND Course = code 9254 THEN Dropout,Dropout,certain,2,34,34,1.0
+IF 1st-sem units approved < 0.5 AND Course = code 8014 THEN Dropout,Dropout,certain,2,31,31,1.0
+IF 1st-sem units approved < 0.5 AND Course = code 9773 THEN Dropout,Dropout,certain,2,32,30,0.9375
+IF 1st-sem units approved < 0.5 AND Course = code 9130 THEN Dropout,Dropout,certain,2,30,29,0.9666666666666667
+IF 1st-sem units approved < 0.5 AND Course = code 9670 THEN Dropout,Dropout,certain,2,29,28,0.9655172413793104
+IF Tuition fees up to date = yes AND Course = code 9500 AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,3,42,28,0.6666666666666666
+IF 1st-sem units approved < 0.5 AND Course = code 9238 THEN Dropout,Dropout,certain,2,30,27,0.9
+IF 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9147 THEN Enrolled,Enrolled,possible,2,58,27,0.46551724137931033
+IF Tuition fees up to date = yes AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9147 THEN Enrolled,Enrolled,certain,3,54,25,0.46296296296296297
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9853 THEN Enrolled,Enrolled,certain,3,50,25,0.5
+IF 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9147 THEN Enrolled,Enrolled,possible,2,59,25,0.423728813559322
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9670 THEN Graduate,Graduate,possible,3,41,25,0.6097560975609756
+IF Tuition fees up to date = yes AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9773 THEN Graduate,Graduate,possible,3,41,25,0.6097560975609756
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9147 THEN Enrolled,Enrolled,certain,3,51,24,0.47058823529411764
+IF 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9991 THEN Dropout,Dropout,certain,2,29,22,0.7586206896551724
+IF Tuition fees up to date = yes AND Course = code 8014 AND 4.5 <= 1st-sem units approved < 5.5 THEN Graduate,Graduate,certain,3,28,22,0.7857142857142857
+IF Tuition fees up to date = no AND 1st-sem units approved < 0.5 AND Course = code 171 THEN Dropout,Dropout,certain,3,25,21,0.84
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9147 THEN Enrolled,Enrolled,certain,3,47,21,0.44680851063829785
+IF 1st-sem units approved >= 5.5 AND Course = code 171 THEN Graduate,Graduate,possible,2,33,21,0.6363636363636364
+IF Tuition fees up to date = yes AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9991 THEN Enrolled,Enrolled,certain,3,40,20,0.5
+IF 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9119 THEN Dropout,Dropout,certain,2,30,19,0.6333333333333333
+IF Course = code 9853 AND 1st-sem units approved < 0.5 THEN Dropout,Dropout,certain,2,18,18,1.0
+IF 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9119 THEN Enrolled,Enrolled,certain,2,24,18,0.75
+IF Tuition fees up to date = yes AND Course = code 9130 AND 1st-sem units approved >= 5.5 THEN Graduate,Graduate,certain,3,28,18,0.6428571428571429
+IF 3.5 <= 1st-sem units approved < 4.5 AND Course = code 8014 THEN Dropout,Dropout,certain,2,25,16,0.64
+IF Course = code 9119 AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,2,35,16,0.45714285714285713
+IF 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9119 THEN Enrolled,Enrolled,possible,2,35,16,0.45714285714285713
+IF Tuition fees up to date = yes AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9254 THEN Dropout,Dropout,certain,3,27,15,0.5555555555555556
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9085 THEN Enrolled,Enrolled,certain,3,32,15,0.46875
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9254 THEN Dropout,Dropout,certain,3,14,13,0.9285714285714286
+IF 1st-sem units approved < 0.5 AND Course = code 9070 THEN Dropout,Dropout,certain,2,14,13,0.9285714285714286
+IF 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9003 THEN Dropout,Dropout,certain,2,15,13,0.8666666666666667
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9130 THEN Dropout,Dropout,certain,3,18,12,0.6666666666666666
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9670 THEN Dropout,Dropout,certain,3,14,12,0.8571428571428571
+IF Tuition fees up to date = yes AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9500 THEN Enrolled,Enrolled,certain,3,18,12,0.6666666666666666
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9119 THEN Enrolled,Enrolled,certain,3,25,11,0.44
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9119 THEN Dropout,Dropout,certain,3,19,10,0.5263157894736842
+IF Tuition fees up to date = yes AND 1st-sem units approved < 0.5 AND Course = other (rare code) THEN Dropout,Dropout,certain,3,14,10,0.7142857142857143
+IF Tuition fees up to date = no AND Course = other (rare code) THEN Dropout,Dropout,possible,2,10,10,1.0
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9670 THEN Enrolled,Enrolled,certain,3,25,10,0.4
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9991 THEN Dropout,Dropout,certain,3,18,9,0.5
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = other (rare code) THEN Dropout,Dropout,certain,3,9,9,1.0
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9238 THEN Enrolled,Enrolled,certain,3,14,9,0.6428571428571429
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9254 THEN Dropout,Dropout,certain,3,13,8,0.6153846153846154
+IF Tuition fees up to date = no AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9773 THEN Dropout,Dropout,certain,3,9,8,0.8888888888888888
+IF Tuition fees up to date = no AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9670 THEN Dropout,Dropout,certain,3,8,8,1.0
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9853 THEN Dropout,Dropout,certain,3,12,8,0.6666666666666666
+IF Tuition fees up to date = no AND Course = code 9085 AND 0.5 <= 1st-sem units approved < 2.5 THEN Dropout,Dropout,certain,3,8,8,1.0
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9003 THEN Dropout,Dropout,certain,3,12,8,0.6666666666666666
+IF 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9773 THEN Dropout,Dropout,certain,2,11,8,0.7272727272727273
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9991 THEN Enrolled,Enrolled,certain,3,18,8,0.4444444444444444
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9085 THEN Enrolled,Enrolled,certain,3,13,8,0.6153846153846154
+IF Tuition fees up to date = yes AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9853 THEN Enrolled,Enrolled,certain,3,17,8,0.47058823529411764
+IF Tuition fees up to date = yes AND Course = code 9853 AND 3.5 <= 1st-sem units approved < 4.5 THEN Enrolled,Enrolled,possible,3,17,8,0.47058823529411764
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 8014 THEN Dropout,Dropout,certain,3,9,7,0.7777777777777778
+IF Tuition fees up to date = no AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9147 THEN Dropout,Dropout,certain,3,8,7,0.875
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9070 THEN Dropout,Dropout,certain,3,10,6,0.6
+IF Tuition fees up to date = no AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9003 THEN Dropout,Dropout,certain,3,6,6,1.0
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9773 THEN Dropout,Dropout,certain,3,9,6,0.6666666666666666
+IF Tuition fees up to date = no AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9500 THEN Dropout,Dropout,certain,3,6,6,1.0
+IF Tuition fees up to date = no AND 1st-sem units approved >= 5.5 AND Course = code 9773 THEN Dropout,Dropout,certain,3,10,5,0.5
+IF Tuition fees up to date = no AND 1st-sem units approved >= 5.5 AND Course = code 9003 THEN Dropout,Dropout,certain,3,7,5,0.7142857142857143
+IF Tuition fees up to date = no AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9670 THEN Dropout,Dropout,certain,3,6,5,0.8333333333333334
+IF Tuition fees up to date = no AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9254 THEN Dropout,Dropout,certain,3,6,5,0.8333333333333334
+IF Tuition fees up to date = no AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9991 THEN Dropout,Dropout,certain,3,5,5,1.0
+IF Tuition fees up to date = no AND Course = code 9085 AND 2.5 <= 1st-sem units approved < 3.5 THEN Dropout,Dropout,certain,3,5,5,1.0
+IF Tuition fees up to date = no AND Course = code 9991 AND 1st-sem units approved >= 5.5 THEN Dropout,Dropout,certain,3,5,5,1.0
+IF 3.5 <= 1st-sem units approved < 4.5 AND Tuition fees up to date = no AND Course = code 9500 THEN Dropout,Dropout,certain,3,5,5,1.0
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9254 THEN Enrolled,Enrolled,certain,3,13,5,0.38461538461538464
+IF Tuition fees up to date = no AND Course = code 9085 AND 1st-sem units approved >= 5.5 THEN Enrolled,Enrolled,certain,3,8,5,0.625
+IF Tuition fees up to date = no AND 4.5 <= 1st-sem units approved < 5.5 AND Course = code 9238 THEN Dropout,Dropout,certain,3,8,4,0.5
+IF Tuition fees up to date = no AND 1st-sem units approved >= 5.5 AND Course = code 9070 THEN Dropout,Dropout,certain,3,6,4,0.6666666666666666
+IF Tuition fees up to date = yes AND Course = code 9500 AND 2.5 <= 1st-sem units approved < 3.5 THEN Dropout,Dropout,certain,3,6,4,0.6666666666666666
+IF Tuition fees up to date = yes AND 0.5 <= 1st-sem units approved < 2.5 AND Course = code 9500 THEN Dropout,Dropout,certain,3,6,4,0.6666666666666666
+IF Tuition fees up to date = no AND Course = code 9130 AND 4.5 <= 1st-sem units approved < 5.5 THEN Dropout,Dropout,certain,3,5,4,0.8
+IF Course = code 9853 AND 0.5 <= 1st-sem units approved < 2.5 AND Tuition fees up to date = yes THEN Dropout,Dropout,certain,3,5,4,0.8
+IF Course = code 9119 AND 1st-sem units approved >= 5.5 THEN Dropout,Dropout,possible,2,6,4,0.6666666666666666
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9238 THEN Enrolled,Enrolled,certain,3,8,4,0.5
+IF Tuition fees up to date = yes AND Course = code 9070 AND 0.5 <= 1st-sem units approved < 2.5 THEN Enrolled,Enrolled,certain,3,10,4,0.4
+IF Tuition fees up to date = yes AND Course = other (rare code) AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,3,8,4,0.5
+IF Tuition fees up to date = no AND Course = code 9085 AND 4.5 <= 1st-sem units approved < 5.5 THEN Enrolled,Enrolled,certain,3,7,4,0.5714285714285714
+IF Tuition fees up to date = yes AND Course = code 9003 AND 3.5 <= 1st-sem units approved < 4.5 THEN Enrolled,Enrolled,certain,3,6,4,0.6666666666666666
+IF Course = code 9130 AND 2.5 <= 1st-sem units approved < 3.5 AND Tuition fees up to date = yes THEN Graduate,Graduate,certain,3,5,4,0.8
+IF Tuition fees up to date = no AND 1st-sem units approved >= 5.5 AND Course = code 9254 THEN Dropout,Dropout,certain,3,6,3,0.5
+IF Tuition fees up to date = no AND 1st-sem units approved >= 5.5 AND Course = code 9238 THEN Dropout,Dropout,certain,3,6,3,0.5
+IF Tuition fees up to date = no AND 3.5 <= 1st-sem units approved < 4.5 AND Course = code 9085 THEN Dropout,Dropout,certain,3,5,3,0.6
+IF Tuition fees up to date = yes AND Course = code 9119 AND 1st-sem units approved >= 5.5 THEN Dropout,Dropout,certain,3,5,3,0.6
+IF Tuition fees up to date = yes AND 2.5 <= 1st-sem units approved < 3.5 AND Course = code 9773 THEN Enrolled,Enrolled,certain,3,6,3,0.5
+IF Tuition fees up to date = no AND Course = code 9853 AND 1st-sem units approved >= 5.5 THEN Enrolled,Enrolled,certain,3,7,3,0.42857142857142855

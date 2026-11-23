@@ -1,0 +1,4 @@
+model,accept_share,defer_share,reject_share,accept_precision,reject_npv,dropouts_flagged,dropouts_deferred,dropouts_missed,dropout_rate_in_defer
+DecisionTree,0.2724,0.1018,0.6258,0.7482,0.8671,0.6336,0.1067,0.2597,0.3372
+RS-EF-class-aware,0.2657,0.1067,0.6276,0.7408,0.8635,0.6041,0.1192,0.2767,0.4163
+RandomForest,0.2125,0.1587,0.6288,0.8964,0.905,0.593,0.2204,0.1866,0.4463
